@@ -1,0 +1,41 @@
+##Systems Programming Collection
+A collection of C programs demonstrating fundamental concepts in network programming and operating system scheduling algorithms.
+
+##What This Is
+Network Programming Components
+Socket Communication Implementations
+
+##Multi-client Server: Demonstrates concurrent client handling using select() system call for multiplexed I/O
+##Single-client Server: Basic TCP server implementation for one-to-one communication
+##Network Clients: Client programs for both local and remote server connections
+##Real-time Communication: Interactive message exchange between clients and servers
+
+##CPU Scheduling Simulator
+##Operating System Scheduling Algorithms
+
+Implementation of 5 core CPU scheduling policies used in operating systems
+FCFS: First-Come-First-Served - processes execute in arrival order
+SJF: Shortest Job First - prioritizes processes with shortest execution time
+Priority Scheduling: Executes highest priority processes first
+Round Robin: Time-sliced execution with configurable quantum
+Priority Round Robin: Combines priority-based selection with round-robin execution
+
+##Technical Concepts Demonstrated
+Network Programming:
+
+##TCP socket creation and management
+Client-server architecture
+Multiplexed I/O with select()
+Connection handling and cleanup
+Cross-network communication protocols
+
+##Operating Systems:
+
+Process scheduling algorithms
+Performance metrics calculation (waiting time, turnaround time)
+Comparative algorithm analysis
+File I/O and data parsing
+Algorithm complexity demonstration
+
+##Purpose
+Educational implementations showing practical applications of systems programming concepts commonly taught in computer science courses covering networks and operating systems.
